@@ -48,45 +48,4 @@ public abstract class KeyboardRow extends JPanel {
      * This method create the row of the virtual keyBoard
      */
     public abstract void createRow();
-
-
-//    public class LetterKeyButton extends JButton{
-//        boolean caps;
-//
-//        LetterKeyButton(String let){
-//            super(let);
-//            caps = false;
-//        }
-//
-//        public void changeCaps(){
-//            if (this.caps){
-//                setText(getText().toLowerCase());
-//                this.caps = false;
-//            }
-//            else {
-//                setText(getText().toUpperCase());
-//                this.caps = true;
-//            }
-//        }
-//    }
-//
-//    public static class SignKeyButton extends JButton{
-//        boolean shift;
-//
-//        LetterKeyButton(String let){
-//            super(let);
-//            shift = false;
-//        }
-//
-//        public void changeShift(){
-//            if (this.shift){
-//                setText(getText().toLowerCase());
-//                this.shift = false;
-//            }
-//            else {
-//                setText(getText().toUpperCase());
-//                this.caps = true;
-//            }
-//        }
-//    }
 }
